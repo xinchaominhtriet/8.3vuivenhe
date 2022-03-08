@@ -1,0 +1,137 @@
+* 
+
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: bisque;
+}
+
+.navbar {
+  background: rgb(213, 236, 196);
+  height: 60px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 3px lightgray;
+}
+
+.navbar .logo {
+  height: 60px;
+  width: auto;
+}
+
+.navbar .navigation {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .navigation a {
+  color: rgb(90, 5, 5);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#welcome {
+  background-image: url("./assets/834.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#welcome p {
+  font-size: 50px;
+  text-align: center;
+}
+
+#picture h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+#picture .images {
+  justify-content: center;
+  display: flex;
+}
+
+
+#wishes {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+#wishes .heading {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#wishes .description {
+  margin: 40px 0;
+  color: grey;
+}
+
+#wishes .content {
+  max-width: 900px;
+  text-align: justify;
+  font-size: 20px;
+  color: rgb(19, 19, 84);
+}
+
+
+
+#wishes .images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+#wishes .images img {
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+#thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#thanks h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+}
+
